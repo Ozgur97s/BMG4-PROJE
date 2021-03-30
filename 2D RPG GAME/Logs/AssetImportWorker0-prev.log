@@ -1,0 +1,375 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.867; Version 2009; 64bit' Language: 'tr' Physical Memory: 15732 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ozgur/Documents/GitHub/BMG4-PROJE/2D RPG GAME
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62190
+Successfully changed project path to: C:/Users/ozgur/Documents/GitHub/BMG4-PROJE/2D RPG GAME
+C:/Users/ozgur/Documents/GitHub/BMG4-PROJE/2D RPG GAME
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ozgur/Documents/GitHub/BMG4-PROJE/2D RPG GAME/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.5763
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001740 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.425 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000829 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.748 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2248.
+Total: 2.522200 ms (FindLiveObjects: 0.188300 ms CreateObjectMapping: 0.040400 ms MarkObjects: 2.169000 ms  DeleteObjects: 0.123000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42baae205c97e3337697759514652acd') in 0.008911 seconds
+  Import took 0.011956 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000837 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.665 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2253.
+Total: 1.871400 ms (FindLiveObjects: 0.291200 ms CreateObjectMapping: 0.039100 ms MarkObjects: 1.430400 ms  DeleteObjects: 0.108900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1030.492802 seconds.
+  path: Assets/Universal Pixel Hero (Warrior)
+  artifactKey: Guid(9fba93a53b3e709469625ecf0ed34b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Universal Pixel Hero (Warrior) using Guid(9fba93a53b3e709469625ecf0ed34b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618fc7127353b179d5906c5b3fd6d8e5') in 0.009671 seconds
+  Import took 0.012564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.760071 seconds.
+  path: Assets/Universal Pixel Hero (Warrior)/Scenes
+  artifactKey: Guid(808239e77d6de43d8b4947cc678bbabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Universal Pixel Hero (Warrior)/Scenes using Guid(808239e77d6de43d8b4947cc678bbabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652eee6eb35c507c87ea74da8319b781') in 0.007627 seconds
+  Import took 0.010679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.493126 seconds.
+  path: Assets/Universal Pixel Hero (Warrior)/Fonts
+  artifactKey: Guid(3e4ddd325d25347ec8cdd2ab32a58892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Universal Pixel Hero (Warrior)/Fonts using Guid(3e4ddd325d25347ec8cdd2ab32a58892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd403c134e72dcb36efc3394de1ec4d7c') in 0.006662 seconds
+  Import took 0.009489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.591020 seconds.
+  path: Assets/Universal Pixel Hero (Warrior)/AnimatorControllers
+  artifactKey: Guid(cfadb70b18076477f838e346f5f66a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Universal Pixel Hero (Warrior)/AnimatorControllers using Guid(cfadb70b18076477f838e346f5f66a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f80152265c55d5e8e7f28984d4ce2a8') in 0.008302 seconds
+  Import took 0.011071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.547749 seconds.
+  path: Assets/Universal Pixel Hero (Warrior)/Animation
+  artifactKey: Guid(cfb27acdff3ce432daf3af944509ba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Universal Pixel Hero (Warrior)/Animation using Guid(cfb27acdff3ce432daf3af944509ba52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe62f85f01edd2191da38d65920ae65b') in 0.007278 seconds
+  Import took 0.010464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.549496 seconds.
+  path: Assets/Pixel Lost Game Scene/Sprites
+  artifactKey: Guid(f429a222793db3d40bdd7ce4505f783a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Lost Game Scene/Sprites using Guid(f429a222793db3d40bdd7ce4505f783a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6024c679c1da2c7b245c15425e800df4') in 0.007817 seconds
+  Import took 0.010532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062607 seconds.
+  path: Assets/Pixel Lost Game Scene/Sprites/background.png
+  artifactKey: Guid(80e59d85317b47843bbfd01e336512c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Lost Game Scene/Sprites/background.png using Guid(80e59d85317b47843bbfd01e336512c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee29c3e1036a7c406ffbad9d153654e') in 0.114580 seconds
+  Import took 0.118674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Pixel Lost Game Scene/Sprites/env_sprites.png
+  artifactKey: Guid(c03df575e288c2e41b6716e45618baf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Lost Game Scene/Sprites/env_sprites.png using Guid(c03df575e288c2e41b6716e45618baf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d03d402cbc0034e73df659f904a82c') in 0.020292 seconds
+  Import took 0.023073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.171748 seconds.
+  path: Assets/Pixel Lost Game Scene/Sprites/Sliced
+  artifactKey: Guid(7962e2575b4deed4e8d9872f20ca8c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Lost Game Scene/Sprites/Sliced using Guid(7962e2575b4deed4e8d9872f20ca8c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8e2e53bc82adcd9f6f67b3897b355b') in 0.008440 seconds
+  Import took 0.011985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081665 seconds.
+  path: Assets/Pixel Lost Game Scene/Sprites/Sliced/background.png
+  artifactKey: Guid(5257e327983a13245ae84bc6f730a2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Lost Game Scene/Sprites/Sliced/background.png using Guid(5257e327983a13245ae84bc6f730a2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cd3d0191faa8ffabdb04a84ab274d5') in 0.032281 seconds
+  Import took 0.036200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Pixel Lost Game Scene/Sprites/Sliced/env_sprites.png
+  artifactKey: Guid(82a562abac3987a4b8a32a0f2c1de913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Lost Game Scene/Sprites/Sliced/env_sprites.png using Guid(82a562abac3987a4b8a32a0f2c1de913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cbc9054f9bfe26604bdc9108a28658') in 0.877927 seconds
+  Import took 0.882023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.199236 seconds.
+  path: Assets/Pixel Lost Game Scene/Sprites/env_sprites.png
+  artifactKey: Guid(c03df575e288c2e41b6716e45618baf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Lost Game Scene/Sprites/env_sprites.png using Guid(c03df575e288c2e41b6716e45618baf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e3e80deaefaa056e03501286654472') in 0.012516 seconds
+  Import took 0.015593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.421524 seconds.
+  path: Assets/Pixel Lost Game Scene/Sprites/env_sprites.png
+  artifactKey: Guid(c03df575e288c2e41b6716e45618baf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Lost Game Scene/Sprites/env_sprites.png using Guid(c03df575e288c2e41b6716e45618baf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ec9d791f446ec5b9b618be1765824e') in 0.014712 seconds
+  Import took 0.018327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1538.311881 seconds.
+  path: Assets/Pixel Lost Game Scene/Sprites/background.png
+  artifactKey: Guid(80e59d85317b47843bbfd01e336512c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Lost Game Scene/Sprites/background.png using Guid(80e59d85317b47843bbfd01e336512c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5532f6e976192671a7bff574697b2e2d') in 0.017667 seconds
+  Import took 0.021486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002864 seconds.
+  path: Assets/Pixel Lost Game Scene/Sprites/background.png
+  artifactKey: Guid(80e59d85317b47843bbfd01e336512c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Lost Game Scene/Sprites/background.png using Guid(80e59d85317b47843bbfd01e336512c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5532f6e976192671a7bff574697b2e2d') in 0.007260 seconds
+  Import took 0.010813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.496559 seconds.
+  path: Assets/Pixel Lost Game Scene/Sprites/env_sprites.png
+  artifactKey: Guid(c03df575e288c2e41b6716e45618baf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Lost Game Scene/Sprites/env_sprites.png using Guid(c03df575e288c2e41b6716e45618baf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb0aa10071effd24a7a3c634d2474df') in 0.843794 seconds
+  Import took 0.848538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Pixel Lost Game Scene/Sprites/Tile Palette
+  artifactKey: Guid(b2d81300eb1e8c446975e5a1e413f8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Lost Game Scene/Sprites/Tile Palette using Guid(b2d81300eb1e8c446975e5a1e413f8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b6121861420730000c0dec14d10766') in 0.007229 seconds
+  Import took 0.010991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.218103 seconds.
+  path: Assets/Pixel Lost Game Scene/Scene
+  artifactKey: Guid(5aaa56658c796cb4cbcf331ee27cae88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Lost Game Scene/Scene using Guid(5aaa56658c796cb4cbcf331ee27cae88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ec2bf30a71381a740c1307fe2ef8b2') in 0.007179 seconds
+  Import took 0.010101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.915408 seconds.
+  path: Assets/Pixel Lost Game Scene
+  artifactKey: Guid(027fa936f20b8d4459b2bbc86eb640ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Lost Game Scene using Guid(027fa936f20b8d4459b2bbc86eb640ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a588bca21942a878bf2918e6a1befa') in 0.008400 seconds
+  Import took 0.011556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.563162 seconds.
+  path: Assets/Pixel Lost Game Scene/Sprites/background.png
+  artifactKey: Guid(80e59d85317b47843bbfd01e336512c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Lost Game Scene/Sprites/background.png using Guid(80e59d85317b47843bbfd01e336512c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb755a711054a0f5db0e7c20d816771') in 0.011372 seconds
+  Import took 0.015038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014047 seconds.
+  path: Assets/Pixel Lost Game Scene/Sprites/background.png
+  artifactKey: Guid(80e59d85317b47843bbfd01e336512c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Lost Game Scene/Sprites/background.png using Guid(80e59d85317b47843bbfd01e336512c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb755a711054a0f5db0e7c20d816771') in 0.010068 seconds
+  Import took 0.013843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.793438 seconds.
+  path: Assets/Pixel Lost Game Scene/Sprites/background.png
+  artifactKey: Guid(80e59d85317b47843bbfd01e336512c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Lost Game Scene/Sprites/background.png using Guid(80e59d85317b47843bbfd01e336512c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab19b11046b9d9f735d4874221ef7981') in 0.022970 seconds
+  Import took 0.026900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.463433 seconds.
+  path: Assets/Universal Pixel Hero (Warrior)/Prefabs
+  artifactKey: Guid(12f25b0538430435ea5fa449b0af0da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Universal Pixel Hero (Warrior)/Prefabs using Guid(12f25b0538430435ea5fa449b0af0da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdeaea16bdd746387ce8ec6e408273b') in 0.007803 seconds
+  Import took 0.011961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.711310 seconds.
+  path: Assets/Universal Pixel Hero (Warrior)/Prefabs/Warrior.prefab
+  artifactKey: Guid(433f146b9906a40109f7566e2a0c7d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Universal Pixel Hero (Warrior)/Prefabs/Warrior.prefab using Guid(433f146b9906a40109f7566e2a0c7d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8612419969017f0ef99f887644e20463') in 0.015260 seconds
+  Import took 0.017941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.204004 seconds.
+  path: Assets/Universal Pixel Hero (Warrior)/Sprites
+  artifactKey: Guid(c9a922a92e5ec4abc98231b14d1ecedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Universal Pixel Hero (Warrior)/Sprites using Guid(c9a922a92e5ec4abc98231b14d1ecedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532c0b2192f8ea314e5d069a740096b7') in 0.005986 seconds
+  Import took 0.009322 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000965 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.668 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2275.
+Total: 2.420000 ms (FindLiveObjects: 0.206100 ms CreateObjectMapping: 0.044400 ms MarkObjects: 2.068000 ms  DeleteObjects: 0.100600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000911 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.671 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2279.
+Total: 2.892400 ms (FindLiveObjects: 0.248200 ms CreateObjectMapping: 0.078300 ms MarkObjects: 2.455700 ms  DeleteObjects: 0.108900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000960 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.656 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 2.125900 ms (FindLiveObjects: 0.319800 ms CreateObjectMapping: 0.119200 ms MarkObjects: 1.578600 ms  DeleteObjects: 0.106600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

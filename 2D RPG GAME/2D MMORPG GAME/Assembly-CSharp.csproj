@@ -60,6 +60,9 @@
     <Compile Include="Assets\CameraController.cs" />
     <Compile Include="Assets\Universal Pixel Hero (Warrior)\Scripts\Controller.cs" />
     <Compile Include="Assets\CharacterStats.cs" />
+    <Compile Include="Assets\TutorialSign.cs" />
+    <Compile Include="Assets\EnemyHealth.cs" />
+    <Compile Include="Assets\HitTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

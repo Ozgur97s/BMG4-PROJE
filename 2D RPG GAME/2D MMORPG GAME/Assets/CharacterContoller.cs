@@ -6,14 +6,18 @@ public class CharacterContoller : MonoBehaviour
 {
     public int speed;
     public int jumpSpeed;
-
+    public int damage;
 
     Animator animator;
     Rigidbody2D rb;
 
     bool canJump = true;
     bool faceRight = true;
+   
 
+    public Vector3 offset;
+
+  
 
     private void Start()
     {
@@ -51,6 +55,11 @@ public class CharacterContoller : MonoBehaviour
             Flip();    
         }
 
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            animator.SetBool("Attack", true);
+        }
+
      }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -79,5 +88,8 @@ public class CharacterContoller : MonoBehaviour
         transform.localScale = scaler;
 
     }
+
+    
+
 
 }

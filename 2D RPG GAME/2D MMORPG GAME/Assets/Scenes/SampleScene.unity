@@ -792,7 +792,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   jumpSpeed: 275
-  damage: 5
   offset: {x: 0, y: 0, z: 0}
 --- !u!70 &308327824
 CapsuleCollider2D:
@@ -3870,7 +3869,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.07}
@@ -3898,7 +3897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d117f07318aa8646877aaae566d178b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 2
 --- !u!212 &1875554716
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4185,7 +4184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd10b16db60273e43a88b188f3778021, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
+  damage: 1
 --- !u!61 &2000230718
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4193,7 +4192,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2000230715}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1

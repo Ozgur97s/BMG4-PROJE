@@ -6,17 +6,15 @@ public class CharacterContoller : MonoBehaviour
 {
     public int speed;
     public int jumpSpeed;
-    public int damage;
 
     Animator animator;
     Rigidbody2D rb;
 
     bool canJump = true;
     bool faceRight = true;
-   
+    bool canAttack = true;
 
     public Vector3 offset;
-
   
 
     private void Start()
@@ -41,7 +39,7 @@ public class CharacterContoller : MonoBehaviour
             animator.SetBool("isRunning", false);
 
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space))
         {
             Jump();
         }
@@ -55,9 +53,10 @@ public class CharacterContoller : MonoBehaviour
             Flip();    
         }
 
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKey(KeyCode.F) && canAttack)
         {
-            animator.SetBool("Attack", true);
+            Attack();
+            animator.SetBool("Attack", true);   
         }
 
      }
@@ -90,6 +89,15 @@ public class CharacterContoller : MonoBehaviour
     }
 
     
-
-
+    private void Attack()
+    {
+        canAttack = false; 
+        animator.SetTrigger("Attack");
+        StartCoroutine(AttackDelay());
+    }
+    IEnumerator AttackDelay()
+    {
+        yield return new WaitForSeconds(0.5f);
+        canAttack = true;
+    }
 }

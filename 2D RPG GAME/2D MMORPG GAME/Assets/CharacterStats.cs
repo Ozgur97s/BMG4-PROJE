@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class CharacterStats : MonoBehaviour
@@ -8,12 +10,16 @@ public class CharacterStats : MonoBehaviour
 
 	//Stats
 	public int health = 5;
-	int maxHealth = 5;
-
 	Rigidbody2D rb;
+	Vector2 konum;
+	Animator animator;
+	GameObject karakter;
+	
+	
 
     public void Start()
     {
+		animator = GetComponent<Animator>();
 		rb = GetComponent<Rigidbody2D>();
     }
 
@@ -22,34 +28,32 @@ public class CharacterStats : MonoBehaviour
 		hearts[health - 1].enabled = false;
 		health -= amount;
 
-		rb.AddForce(Vector2.left * 5000);
+		rb.AddForce(Vector2.left * 2500);
+
+		if (health <= 0)
+		{
+			Death();		
+		}
 
 	}
 
-	public void Regen(int amount)
-	{
-		health += amount;
+	public void Death()
+    {
+		animator.SetTrigger("Die");
+		StartCoroutine(RestartDelay());
+	}
 
-		for(int i = 0; i < health; i++)
-		{
-			hearts[i].enabled = true;
-		}
+	IEnumerator RestartDelay()
+	{
+		yield return new WaitForSeconds(3f);
+		SceneManager.LoadScene("SampleScene");
 	}
 
 	private void Update()
 	{
-		if(health > maxHealth)
-		{
-			health = maxHealth;
-		}
-
-
-		if (Input.GetKeyDown(KeyCode.J))
-		{
-			if(health < maxHealth)
-			{
-				Regen(1);
-			}
-		}
+	
 	}
+
+
+
 }

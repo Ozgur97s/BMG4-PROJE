@@ -74,7 +74,9 @@ public class CharacterContoller : MonoBehaviour
         if (canJump == true)
         {
             rb.AddForce(Vector2.up * jumpSpeed);
+            animator.SetTrigger("Jump");
             canJump = false;
+            
 
         }
     } 

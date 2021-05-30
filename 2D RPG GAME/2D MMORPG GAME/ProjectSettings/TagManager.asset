@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Platform
   - Enemy
+  - Obstancles
   layers:
   - Default
   - TransparentFX

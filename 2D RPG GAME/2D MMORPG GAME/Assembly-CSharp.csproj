@@ -59,15 +59,22 @@
     <Compile Include="Assets\CharacterContoller.cs" />
     <Compile Include="Assets\TutorialSign.cs" />
     <Compile Include="Assets\CameraController.cs" />
+    <Compile Include="Assets\FreePixelMob\Mobs.cs" />
+    <Compile Include="Assets\Hero Knight - Pixel Art\Demo\Sensor_HeroKnight.cs" />
+    <Compile Include="Assets\FreePixelMob\StateRandom.cs" />
     <Compile Include="Assets\Universal Pixel Hero (Warrior)\Scripts\Controller.cs" />
     <Compile Include="Assets\CharacterStats.cs" />
-    <Compile Include="Assets\HitTrigger.cs" />
-    <Compile Include="Assets\FreePixelMob\StateRandom.cs" />
-    <Compile Include="Assets\FreePixelMob\Mobs.cs" />
     <Compile Include="Assets\SimpleEnemyBehaviour.cs" />
+    <Compile Include="Assets\Hero Knight - Pixel Art\Demo\HeroKnight.cs" />
+    <Compile Include="Assets\HitTrigger.cs" />
+    <Compile Include="Assets\Hero Knight - Pixel Art\ColorSwap\ColorSwap_HeroKnight.cs" />
+    <Compile Include="Assets\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
+    <Compile Include="Assets\BG.cs" />
+    <Compile Include="Assets\Obstancles.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\FreePixelMob\ReadMe.txt" />
+     <None Include="Assets\Hero Knight - Pixel Art\ColorSwap\Sprites-ColorSwap.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

@@ -46,7 +46,7 @@ public class SimpleEnemyBehaviour : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
-        rb.AddForce(Vector2.right * 200);
+        rb.AddForce(Vector2.right * 100);
 
         health -= amount;
 
@@ -65,5 +65,7 @@ public class SimpleEnemyBehaviour : MonoBehaviour
             collision.transform.GetComponent<CharacterStats>().TakeDamage(1);
         }
     }
+
+
 
 }

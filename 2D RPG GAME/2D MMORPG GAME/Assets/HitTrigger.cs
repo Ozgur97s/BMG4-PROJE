@@ -10,7 +10,7 @@ public class HitTrigger : MonoBehaviour
     {
         if (collision.transform.tag == "Enemy")
         {
-            collision.GetComponent<EnemyHealth>().health -= damage;
+            collision.GetComponent<SimpleEnemyBehaviour>().TakeDamage(damage);
         }
     }
 

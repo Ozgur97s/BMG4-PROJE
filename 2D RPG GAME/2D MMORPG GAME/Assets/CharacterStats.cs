@@ -10,10 +10,20 @@ public class CharacterStats : MonoBehaviour
 	public int health = 5;
 	int maxHealth = 5;
 
-	public void Damage(int amount)
+	Rigidbody2D rb;
+
+    public void Start()
+    {
+		rb = GetComponent<Rigidbody2D>();
+    }
+
+    public void TakeDamage(int amount)
 	{
 		hearts[health - 1].enabled = false;
 		health -= amount;
+
+		rb.AddForce(Vector2.left * 5000);
+
 	}
 
 	public void Regen(int amount)
@@ -33,13 +43,6 @@ public class CharacterStats : MonoBehaviour
 			health = maxHealth;
 		}
 
-		if (Input.GetKeyDown(KeyCode.H))
-		{
-			if(health > 0)
-			{
-				Damage(1);
-			}
-		}
 
 		if (Input.GetKeyDown(KeyCode.J))
 		{
